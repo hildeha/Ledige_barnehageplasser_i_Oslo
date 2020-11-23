@@ -2,6 +2,6 @@ streamlit
 pandas
 numpy
 requests
-BeautifulSoup
+BeautifulSoup4
 fuzzywuzzy
 plotly
