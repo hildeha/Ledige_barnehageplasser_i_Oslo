@@ -49,7 +49,7 @@ def main():
     alder = st.sidebar.multiselect(label='Avdeling', options=['','Småbarn','Storbarn'])
     fundersokelse = st.sidebar.slider(label='Resultat foreldreundersøkelse',
                                        max_value=float(barnehager.dataframe['Total tilfredshet'].max()),
-                                       min_value=foat(barnehager.dataframe['Total tilfredshet'].min()),
+                                       min_value=float(barnehager.dataframe['Total tilfredshet'].min()),
                                        value=float(barnehager.dataframe['Total tilfredshet'].min()))
 
 
