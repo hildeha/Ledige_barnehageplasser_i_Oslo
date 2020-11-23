@@ -119,7 +119,7 @@ def main():
     st.markdown('<br><br>', unsafe_allow_html=True)
     st.markdown('---', unsafe_allow_html=True)
     st.markdown('<i>Denne webappen er skrevet av Hilde Tveit Håland i november 2020, kode er tilgjengelig på'
-                '<a href=https://github.com/hildeha/Ledige_barnehageplasser_i_Oslo> Github</a>. Appen er '
+                '<a href=https://github.com/hildeha/Ledige_barnehageplasser_i_Oslo target="_blank"> Github</a>. Appen er '
                 'hosted med Streamlit for Teams.</i>', unsafe_allow_html=True)
     st.markdown('<i>All data er hentet fra https://www.oslo.kommune.no/barnehage/ledige-barnehageplasser/#gref '
                 '</i>', unsafe_allow_html=True)
